@@ -40,8 +40,8 @@
     }
   ],
   "files": [
-    "lib",
-    "locale",
+    "./lib",
+    "./locale",
     "README.md",
     "LICENSE"
   ],
