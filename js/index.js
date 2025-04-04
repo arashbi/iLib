@@ -30,15 +30,7 @@ if (!ilib._platform || (typeof(ilib._dyndata) !== 'boolean' && typeof(ilib._dync
             case 'nodejs':
                 require("./lib/ilib-node.js");
                 break;
-            case 'qt':
-                require("./lib/ilib-qt.js");
-                break;
-            case 'rhino':
-                require("./lib/ilib-rhino.js");
-                break;
-            case 'ringo':
-                require("./lib/ilib-ringo.js");
-                break;
+        
             default:
                 ilib._dyncode = false;
                 ilib._dyndata = false;
